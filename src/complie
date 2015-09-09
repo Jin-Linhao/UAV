@@ -1,0 +1,1 @@
+g++ rcm.cpp rcmIf.cpp ssuwb.cpp rcmSampleApp.cpp -o demo
