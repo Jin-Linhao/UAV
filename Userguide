@@ -1,0 +1,21 @@
+// for general running operation
+roscore
+source ./devel/setup.bash  //source before each building
+
+//build the publisher and subscriber
+cd catkin_ws
+catkin_make
+
+
+//for running publisher and listener
+//c++   
+    rosrun uwbtestrun1 uwbtestrun1_node /dev/ttyACM0 usb
+//python
+    rosrun usbtestrun1 listener.py
+
+
+
+// for checking UWB number
+ll /dev/ttyACM+tab
+
+

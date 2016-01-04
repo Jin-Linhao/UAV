@@ -10,7 +10,7 @@
 int dis[4];
 int nodes[4];//nodesID of each node
 int num;//num of node in location network
-char* dev="/dev/ttyS0";;
+char* dev="/dev/ttyS0";
 rcmIfType   rcmIf;
 rcmConfiguration config;
 rcmMsg_GetStatusInfoConfirm statusInfo;
